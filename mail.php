@@ -7,5 +7,5 @@ $content="From: $name \n Email: $email \n Message: $message";
 $recipient = "rohitmehra.cs17@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+header("Location: index.html?mailsend");
 ?>
