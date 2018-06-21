@@ -495,7 +495,7 @@
                     </form>
 
                     <div class="center-on-small-only">
-                        <a class="btn btn-success" onclick="validateForm()">Send</a>
+                        <a class="btn btn-success" onclick="document.getElementById('contact-form').submit();">Send</a>
                     </div> <div class="status" id="status"></div>
                 </div>
                 <!--Grid column-->
@@ -733,7 +733,7 @@
       google.maps.event.addDomListener(window, 'load', regular_map);
     </script>
 
-   <script>
+   <!-- <script>
     function validateForm() {
         var name =  document.getElementById('name').value;
         if (name == "") {
@@ -787,7 +787,7 @@
 });
 
  }
-</script>
+</script> -->
 </body>
 
 </html>
