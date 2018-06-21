@@ -31,3 +31,8 @@ header,
 #mbody {
   text-align: left;
 }
+
+#Committee-button {
+  padding-right: 120px;
+  padding-left: 120px;
+}
