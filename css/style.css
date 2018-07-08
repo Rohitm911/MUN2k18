@@ -6,30 +6,43 @@ header,
 }
 
 #intro {
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    background: url("../img/background-1.jpg") no-repeat center center fixed;
+     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+   
 
     
 }
 .top-nav-collapse {
-  background-color: #009933;
+  background-color: #666633;
 }
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background-color: #009933;
+    background-color: #666633;
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
-    background-color: #009933;
+    background-color: #666633;
   }
+}
+
+#image_edit {
+     height: 400px;
+     width: 470px;
+    border-radius: 50%;
+ }
+
+#image_edit1 {
+    
+    border-radius: 50%;
 }
 
 #mbody {
   text-align: left;
+  
 }
 
 #Committee-button {
@@ -43,3 +56,21 @@ header,
     padding-left:10px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) { 
+  #icon_shift {
+    padding-right: 150px;
+  }
+ }
+
+ @media (max-width: 767px) {
+  #icon_shift {
+    padding-left: 40px;
+  }
+ }
+
+@media (min-width: 1200px) {
+  #icon_shift {
+    padding-right: 30px;
+  }
+ }
